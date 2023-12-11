@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Mobile 1",
+      "category": "Smartphones",
+      "price": 999.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "name": "TV 1",
+      "category": "Televisions",
+      "price": 1499.99,
+      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+    },
+    {
+      "id": 3,
+      "name": "Tablet 1",
+      "category": "Tablets",
+      "price": 799.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+    },
+    {
+      "id": 4,
+      "name": "Laptop 1",
+      "category": "Laptops",
+      "price": 1999.99,
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mobile 2",
+      "category": "Smartphones",
+      "price": 599.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+    },
+    {
+      "id": 6,
+      "name": "TV 2",
+      "category": "Televisions",
+      "price": 1299.99,
+      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+    },
+    {
+      "id": 7,
+      "name": "Tablet 2",
+      "category": "Tablets",
+      "price": 899.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+    },
+    {
+      "id": 8,
+      "name": "Laptop 2",
+      "category": "Laptops",
+      "price": 1599.99,
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Mobile 3",
+      "category": "Smartphones",
+      "price": 749.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+    },
+    {
+      "id": 10,
+      "name": "TV 3",
+      "category": "Televisions",
+      "price": 1799.99,
+      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+    },
+    {
+      "id": 11,
+      "name": "Tablet 3",
+      "category": "Tablets",
+      "price": 1199.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+    },
+    {
+      "id": 12,
+      "name": "Laptop 3",
+      "category": "Laptops",
+      "price": 899.99,
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Mobile 4",
+      "category": "Smartphones",
+      "price": 2199.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+    },
+    {
+      "id": 14,
+      "name": "TV 4",
+      "category": "Televisions",
+      "price": 499.99,
+      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+    },
+    {
+      "id": 15,
+      "name": "Tablet 4",
+      "category": "Tablets",
+      "price": 1399.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+    },
+    {
+      "id": 16,
+      "name": "Laptop 4",
+      "category": "Laptops",
+      "price": 999.99,
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Mobile 5",
+      "category": "Smartphones",
+      "price": 2499.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+    },
+    {
+      "id": 18,
+      "name": "TV 5",
+      "category": "Televisions",
+      "price": 699.99,
+      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+    },
+    {
+      "id": 19,
+      "name": "Tablet 5",
+      "category": "Tablets",
+      "price": 1599.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+    },
+    {
+      "id": 20,
+      "name": "Laptop 5",
+      "category": "Laptops",
+      "price": 899.99,
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+    }
+  ]
+}
