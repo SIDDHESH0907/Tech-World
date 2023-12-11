@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import Navbar from './components/common/Navbar';
-import ProductList from './components/products/ProductList';
-import Footer from './components/common/Footer';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import Navbar from "./components/common/Navbar";
+import Footer from "./components/common/Footer";
+import ProductList from "./components/products/ProductList"
+import LoginForm from "./components/authentication/LoginForm";
+import RegisterForm from "./components/authentication/RegisterForm";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Navbar />
+    {/* <LoginForm/> */}
+    {/* <RegisterForm /> */}
     <ProductList/>
-    <Footer/>
+    <Footer />
   </React.StrictMode>
 );
 
