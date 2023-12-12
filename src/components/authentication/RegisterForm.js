@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./RegisterForm.css";
+import { Link } from "react-router-dom";
+
 
 const RegisterForm = () => {
   const [email, setEmail] = useState("");
@@ -15,6 +17,7 @@ const RegisterForm = () => {
   return (
     <div className="register-container">
       <div className="register-form">
+      <h1 className="register-from-title">Register Form</h1>
         <form onSubmit={handleRegister}>
           <label className="register-email">
             Email:
@@ -44,7 +47,10 @@ const RegisterForm = () => {
           </label>
           <br />
           <div className="register-form-btn">
-            <button type="submit">Login</button>
+            <Link to="/login">
+              <button type="submit">Login</button>{" "}
+            </Link>
+
             <button type="submit">Register</button>
           </div>
         </form>

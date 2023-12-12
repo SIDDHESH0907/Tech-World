@@ -1,12 +1,30 @@
+/* Default styles */
 .list-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   margin: 50px;
+
+  @media screen and (max-width: 1400px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 600px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .list-container {
   display: flex;
+  background-color: var(--p-color);
   justify-content: center;
 }
 
@@ -15,48 +33,52 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--p-color);
 }
 
-.select-category > button {
+.select-category-btn {
   height: 40px;
   padding: 0px 15px;
   font-size: 15px;
   font-weight: 500;
   border: none;
-  background-color: #fff;
+  border-radius: unset;
+  background-color: var(--p-color);
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
-.select-category > button:hover {
-  color: white;
-  background-color: black;
+.select-category-btn:hover {
+  color: var(--p-color);
+  background-color: var(--s-color);
 }
 
 .select-category-hr {
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  border: 1px solid var(--s-color);
 }
 
-.pagination > button {
+.pagination-btn {
   height: 40px;
   border: none;
-  background-color: #fff;
+  background-color: var(--p-color);
   font-size: 15px;
   font-style: 500;
   transition: all 0.3s ease;
   padding: 0px 15px;
   cursor: pointer;
+  border-radius: unset;
 }
 
-.pagination > button:hover {
-  color: white;
-  background-color: black;
+.pagination-btn:hover {
+  color: var(--p-color);
+  background-color: var(--s-color);
 }
 
 .pagination {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--p-color);
 }

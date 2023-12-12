@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--p-color);
 }
 
 .login-form {
@@ -10,7 +11,7 @@
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
-  border: 1px solid white;
+  border: 2px solid rgb(0, 0, 0);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -18,6 +19,12 @@
 .login-password {
   display: block;
   margin-bottom: 10px;
+  background-color: var(--p-color);
+}
+
+.login-email:focus,
+.login-password:focus {
+  border: 1px solid red;
 }
 
 input {
@@ -26,22 +33,23 @@ input {
   margin-top: 5px;
   box-sizing: border-box;
   border-radius: 10px;
-  border: 1px solid black;
+  background-color: var(--p-color);
+  border: 1px solid var(--s-color);
 }
 
 button {
-  background-color: white;
-  color: black;
+  background-color: var(--p-color);
+  color: var(--s-color);
   padding: 10px 15px;
   border: none;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid var(--s-color);
   cursor: pointer;
 }
 
 button:hover {
-  background-color: black;
-  color: white;
+  background-color: var(--s-color);
+  color: var(--p-color);
 }
 
 .login-form-btn {

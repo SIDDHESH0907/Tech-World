@@ -3,13 +3,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--p-color);
 }
 
 .register-form {
   width: 400px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 2px solid var(--s-color);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -27,22 +28,22 @@ input {
   margin-top: 5px;
   box-sizing: border-box;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid var(--s-color);
 }
 
 button {
-  background-color: white;
+  background-color: var(--p-color);
   color: black;
   padding: 10px 15px;
   border: none;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid var(--s-color);
   cursor: pointer;
 }
 
 button:hover {
-  background-color: black;
-  color: white;
+  background-color: var(--s-color);
+  color: var(--p-color);
 }
 
 .register-form-btn {
@@ -50,4 +51,12 @@ button:hover {
   align-items: center;
   justify-content: center;
   gap: 15px;
+}
+
+.register-from-title{
+  text-align: center;
+}
+
+.login-from-title{
+  text-align: center;
 }

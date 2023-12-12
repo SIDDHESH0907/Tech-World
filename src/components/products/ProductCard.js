@@ -1,5 +1,5 @@
 import React from "react";
-import './ProductCard.css'
+import "./ProductCard.css";
 
 function ProductCard(props) {
   return (
@@ -13,7 +13,6 @@ function ProductCard(props) {
           <div className="product-price">₹ {props.price}</div>
         </div>
       </div>
-      
     </>
   );
 }

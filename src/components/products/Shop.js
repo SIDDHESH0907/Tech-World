@@ -4,7 +4,7 @@ import "./ProductList.css";
 
 let original_products = [];
 
-function ProductList() {
+function Shop() {
   let [products, setProducts] = useState([]);
   let [url, setUrl] = useState("http://localhost:3000/products");
 
@@ -19,7 +19,7 @@ function ProductList() {
     fetchProducts();
   }, [url]);
 
-  const itemsPerPage = 10;
+  const itemsPerPage = 20;
   const [currentPage, setCurrentPage] = useState(1);
 
   const totalPages = Math.ceil(products.length / itemsPerPage);
@@ -124,4 +124,4 @@ function ProductList() {
   );
 }
 
-export default ProductList;
+export default Shop;
