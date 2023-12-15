@@ -8,6 +8,10 @@
   background-color: var(--p-color);
 }
 
+.navbar-mid{
+  display: none;
+}
+
 .navbar-right > ul {
   display: flex;
   list-style: none;
@@ -15,13 +19,27 @@
   cursor: pointer;
 }
 
+.navbar-right.visible {
+  display: flex;
+}
+
 @media screen and (max-width: 900px) {
   .navbar-right {
+    display: none;
+  
+
+  }
+
+  .navbar-mid{
+    display: contents;
   }
 
   .navbar {
     flex-direction: column;
     height: auto;
+    padding: 10px 50px;
+    gap: 10px;
+
   }
 }
 

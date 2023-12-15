@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function Navbar() {
+  const [isNavbarVisible, setNavbarVisibility] = useState(false);
+
+  const toggleNavbar = () => {
+    setNavbarVisibility(!isNavbarVisible);
+  };
+
   return (
     <>
       <div className="navbar">
         <div className="navbar-left">
           <Link to="/">TechWorld</Link>
         </div>
-        <div className="navbar-right">
+        <div className="navbar-mid" onClick={toggleNavbar}>
+          <GiHamburgerMenu />
+        </div>
+        <div className={`navbar-right ${isNavbarVisible ? "visible" : ""}`}>
           <ul>
             <li>
               <Link to="/">Home</Link>
