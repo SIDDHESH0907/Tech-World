@@ -60,7 +60,7 @@ function Shop() {
         <button
           className="select-category-btn"
           onClick={() =>
-            setUrl("http://localhost:3000/products?category=Smartphones")
+            setUrl("http://localhost:3000/products?category=Mobiles")
           }
         >
           Smartphones
@@ -68,7 +68,7 @@ function Shop() {
         <button
           className="select-category-btn"
           onClick={() =>
-            setUrl("http://localhost:3000/products?category=Televisions")
+            setUrl("http://localhost:3000/products?category=TVs")
           }
         >
           Televisions

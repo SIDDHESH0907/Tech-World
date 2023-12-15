@@ -2,355 +2,523 @@
   "products": [
     {
       "id": 1,
-      "name": "Mobile 1",
-      "category": "Smartphones",
+      "name": "iPhone 14",
+      "category": "Mobiles",
       "price": 999.99,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+      "images": [
+        "/Images/Mobiles/iPhone 14-1.webp",
+        "/Images/Mobiles/iPhone 14-2.webp"
+      ]
     },
     {
       "id": 2,
-      "name": "TV 1",
-      "category": "Televisions",
-      "price": 1499.99,
-      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+      "name": "iPhone 15",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/iPhone 15-1.webp",
+        "/Images/Mobiles/iPhone 15-2.webp"
+      ]
     },
     {
       "id": 3,
-      "name": "Tablet 1",
-      "category": "Tablets",
-      "price": 799.99,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+      "name": "Nothing Phone 1",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/Nothing Phone 1-1.webp",
+        "/Images/Mobiles/Nothing Phone 1-2.webp"
+      ]
     },
     {
       "id": 4,
-      "name": "Laptop 1",
-      "category": "Laptops",
-      "price": 1999.99,
-      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+      "name": "Nothing Phone 2",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/Nothing Phone 2-1.webp",
+        "/Images/Mobiles/Nothing Phone 2-2.webp"
+      ]
     },
     {
       "id": 5,
-      "name": "Mobile 2",
-      "category": "Smartphones",
-      "price": 599.99,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+      "name": "OnePlus 11",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/OnePlus 11-1.webp",
+        "/Images/Mobiles/OnePlus 11-2.webp"
+      ]
     },
     {
       "id": 6,
-      "name": "TV 2",
-      "category": "Televisions",
-      "price": 1299.99,
-      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+      "name": "OnePlus Nord CE3",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/OnePlus Nord CE3-1.webp",
+        "/Images/Mobiles/OnePlus Nord CE3-2.webp"
+      ]
     },
     {
       "id": 7,
-      "name": "Tablet 2",
-      "category": "Tablets",
-      "price": 899.99,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+      "name": "Oppo Find N3 Flip",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/Oppo Find N3 Flip-1.webp",
+        "/Images/Mobiles/Oppo Find N3 Flip-2.webp"
+      ]
     },
     {
       "id": 8,
-      "name": "Laptop 2",
-      "category": "Laptops",
-      "price": 1599.99,
-      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+      "name": "Oppo Reno 10 Pro",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/Oppo Reno 10 Pro-1.webp",
+        "/Images/Mobiles/Oppo Reno 10 Pro-2.webp"
+      ]
     },
     {
       "id": 9,
-      "name": "Mobile 3",
-      "category": "Smartphones",
-      "price": 749.99,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+      "name": "Realme 11 Pro Plus",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/Realme 11 Pro Plus-1.webp",
+        "/Images/Mobiles/Realme 11 Pro Plus-2.webp"
+      ]
     },
     {
       "id": 10,
-      "name": "TV 3",
-      "category": "Televisions",
-      "price": 1799.99,
-      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+      "name": "Realme GT Neo 3",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/Realme GT Neo 3-1.webp",
+        "/Images/Mobiles/Realme GT Neo 3-2.webp"
+      ]
     },
     {
       "id": 11,
-      "name": "Tablet 3",
-      "category": "Tablets",
-      "price": 1199.99,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+      "name": "SAMSUNG Galaxy S23 Ultra",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/SAMSUNG Galaxy S23 Ultra-1.webp",
+        "/Images/Mobiles/SAMSUNG Galaxy S23 Ultra-2.webp"
+      ]
     },
     {
       "id": 12,
-      "name": "Laptop 3",
-      "category": "Laptops",
-      "price": 899.99,
-      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+      "name": "SAMSUNG Galaxy Z Flip5",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/SAMSUNG Galaxy Z Flip5-1.webp",
+        "/Images/Mobiles/SAMSUNG Galaxy Z Flip5-2.webp"
+      ]
     },
     {
       "id": 13,
-      "name": "Mobile 4",
-      "category": "Smartphones",
-      "price": 2199.99,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+      "name": "SAMSUNG Galaxy Z Fold5",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/SAMSUNG Galaxy Z Fold5-1.webp",
+        "/Images/Mobiles/SAMSUNG Galaxy Z Fold5-2.webp"
+      ]
     },
     {
       "id": 14,
-      "name": "TV 4",
-      "category": "Televisions",
-      "price": 499.99,
-      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+      "name": "Vivo V29e",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/Vivo V29e-1.webp",
+        "/Images/Mobiles/Vivo V29e-2.webp"
+      ]
     },
     {
       "id": 15,
-      "name": "Tablet 4",
-      "category": "Tablets",
-      "price": 1399.99,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+      "name": "Vivo X90 5G",
+      "category": "Mobiles",
+      "price": 999.99,
+      "images": [
+        "/Images/Mobiles/Vivo X90 5G-1.webp",
+        "/Images/Mobiles/Vivo X90 5G-2.webp"
+      ]
     },
     {
       "id": 16,
-      "name": "Laptop 4",
-      "category": "Laptops",
+      "name": "Xiaomi 11X Pro",
+      "category": "Mobiles",
       "price": 999.99,
-      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+      "images": [
+        "/Images/Mobiles/Xiaomi 11X Pro-1.webp",
+        "/Images/Mobiles/Xiaomi 11X Pro-2.webp"
+      ]
     },
     {
       "id": 17,
-      "name": "Mobile 5",
-      "category": "Smartphones",
-      "price": 2499.99,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+      "name": "Apple iPad 9th Generation",
+      "category": "Tablets",
+      "price": 999.99,
+      "images": [
+        "/Images/Tablets/Apple iPad 9th Generation-1.webp",
+        "/Images/Tablets/Apple iPad 9th Generation-2.webp"
+      ]
     },
     {
       "id": 18,
-      "name": "TV 5",
-      "category": "Televisions",
-      "price": 699.99,
-      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+      "name": "Apple iPad 10th Generation",
+      "category": "Tablets",
+      "price": 999.99,
+      "images": [
+        "/Images/Tablets/Apple iPad 10th Generation-1.webp",
+        "/Images/Tablets/Apple iPad 10th Generation-2.webp"
+      ]
     },
     {
       "id": 19,
-      "name": "Tablet 5",
+      "name": "Apple iPad Pro 4th Generation",
       "category": "Tablets",
-      "price": 1599.99,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+      "price": 999.99,
+      "images": [
+        "/Images/Tablets/Apple iPad Pro 4th Generation-1.webp",
+        "/Images/Tablets/Apple iPad Pro 4th Generation-2.webp"
+      ]
     },
     {
       "id": 20,
-      "name": "Laptop 5",
-      "category": "Laptops",
-      "price": 899.99,
-      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+      "name": "Lenovo Tab M10",
+      "category": "Tablets",
+      "price": 999.99,
+      "images": [
+        "/Images/Tablets/Lenovo Tab M10-1.webp",
+        "/Images/Tablets/Lenovo Tab M10-2.webp"
+      ]
     },
-
     {
       "id": 21,
-      "name": "Mobile 6",
-      "category": "Smartphones",
-      "price": 1499.99,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+      "name": "Lenovo Tab P12 Pro",
+      "category": "Tablets",
+      "price": 999.99,
+      "images": [
+        "/Images/Tablets/Lenovo Tab P12 Pro-1.webp",
+        "/Images/Tablets/Lenovo Tab P12 Pro-2.webp"
+      ]
     },
     {
       "id": 22,
-      "name": "TV 6",
-      "category": "Televisions",
+      "name": "Oppo Pad Air",
+      "category": "Tablets",
       "price": 999.99,
-      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+      "images": [
+        "/Images/Tablets/Oppo Pad Air-1.webp",
+        "/Images/Tablets/Oppo Pad Air-2.webp"
+      ]
     },
     {
       "id": 23,
-      "name": "Tablet 6",
+      "name": "SAMSUNG Galaxy Tab A9 Plus",
       "category": "Tablets",
-      "price": 799.99,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+      "price": 999.99,
+      "images": [
+        "/Images/Tablets/SAMSUNG Galaxy Tab A9 Plus-1.webp",
+        "/Images/Tablets/SAMSUNG Galaxy Tab A9 Plus-2.webp"
+      ]
     },
     {
       "id": 24,
-      "name": "Laptop 6",
-      "category": "Laptops",
-      "price": 1999.99,
-      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+      "name": "SAMSUNG Galaxy Tab S9 Plus",
+      "category": "Tablets",
+      "price": 999.99,
+      "images": [
+        "/Images/Tablets/SAMSUNG Galaxy Tab S9 Plus-1.webp",
+        "/Images/Tablets/SAMSUNG Galaxy Tab S9 Plus-2.webp"
+      ]
     },
     {
       "id": 25,
-      "name": "Mobile 7",
-      "category": "Smartphones",
-      "price": 699.99,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+      "name": "Acer Nitro 5",
+      "category": "Laptops",
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/Acer Nitro 5-1.webp",
+        "/Images/Laptops/Acer Nitro 5-2.webp"
+      ]
     },
     {
       "id": 26,
-      "name": "TV 7",
-      "category": "Televisions",
-      "price": 1299.99,
-      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+      "name": "Acer Predator Helios Neo 16",
+      "category": "Laptops",
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/Acer Predator Helios Neo 16-1.webp",
+        "/Images/Laptops/Acer Predator Helios Neo 16-2.webp"
+      ]
     },
     {
       "id": 27,
-      "name": "Tablet 7",
-      "category": "Tablets",
-      "price": 899.99,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+      "name": "Apple MacBook Air",
+      "category": "Laptops",
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/Apple MacBook Air-1.webp",
+        "/Images/Laptops/Apple MacBook Air-2.webp"
+      ]
     },
     {
       "id": 28,
-      "name": "Laptop 7",
+      "name": "Apple MacBook Pro",
       "category": "Laptops",
-      "price": 1599.99,
-      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/Apple MacBook Pro-1.webp",
+        "/Images/Laptops/Apple MacBook Pro-2.webp"
+      ]
     },
     {
       "id": 29,
-      "name": "Mobile 8",
-      "category": "Smartphones",
-      "price": 1199.99,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+      "name": "ASUS TUF Gaming F15",
+      "category": "Laptops",
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/ASUS TUF Gaming F15-1.webp",
+        "/Images/Laptops/ASUS TUF Gaming F15-2.webp"
+      ]
     },
     {
       "id": 30,
-      "name": "TV 8",
-      "category": "Televisions",
-      "price": 1799.99,
-      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+      "name": "ASUS Vivobook",
+      "category": "Laptops",
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/ASUS Vivobook-1.webp",
+        "/Images/Laptops/ASUS Vivobook-2.webp"
+      ]
     },
-
     {
       "id": 31,
-      "name": "Mobile 9",
-      "category": "Smartphones",
-      "price": 799.99,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+      "name": "DELL Inspiron 3520",
+      "category": "Laptops",
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/DELL Inspiron 3520-1.webp",
+        "/Images/Laptops/DELL Inspiron 3520-2.webp"
+      ]
     },
     {
       "id": 32,
-      "name": "TV 9",
-      "category": "Televisions",
-      "price": 1099.99,
-      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+      "name": "Dell Inspiron G15",
+      "category": "Laptops",
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/Dell Inspiron G15-1.webp",
+        "/Images/Laptops/Dell Inspiron G15-2.webp"
+      ]
     },
     {
       "id": 33,
-      "name": "Tablet 9",
-      "category": "Tablets",
-      "price": 1399.99,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+      "name": "HP Pavilion",
+      "category": "Laptops",
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/HP Pavilion-1.webp",
+        "/Images/Laptops/HP Pavilion-2.webp"
+      ]
     },
     {
       "id": 34,
-      "name": "Laptop 9",
+      "name": "HP Victus",
       "category": "Laptops",
-      "price": 1799.99,
-      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/HP Victus-1.webp",
+        "/Images/Laptops/HP Victus-2.webp"
+      ]
     },
     {
       "id": 35,
-      "name": "Mobile 10",
-      "category": "Smartphones",
+      "name": "Lenovo IdeaPad 3",
+      "category": "Laptops",
       "price": 999.99,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+      "images": [
+        "/Images/Laptops/Lenovo IdeaPad 3-1.webp",
+        "/Images/Laptops/Lenovo IdeaPad 3-2.webp"
+      ]
     },
     {
       "id": 36,
-      "name": "TV 10",
-      "category": "Televisions",
-      "price": 1499.99,
-      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+      "name": "Lenovo Yoga Slim 6",
+      "category": "Laptops",
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/Lenovo Yoga Slim 6-1.webp",
+        "/Images/Laptops/Lenovo Yoga Slim 6-2.webp"
+      ]
     },
     {
       "id": 37,
-      "name": "Tablet 10",
-      "category": "Tablets",
-      "price": 799.99,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+      "name": "LG Gram 16",
+      "category": "Laptops",
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/LG Gram 16-1.webp",
+        "/Images/Laptops/LG Gram 16-2.webp"
+      ]
     },
     {
       "id": 38,
-      "name": "Laptop 10",
+      "name": "LG Gram 17",
       "category": "Laptops",
-      "price": 1999.99,
-      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/LG Gram 17-1.webp",
+        "/Images/Laptops/LG Gram 17-2.webp"
+      ]
     },
     {
       "id": 39,
-      "name": "Mobile 11",
-      "category": "Smartphones",
-      "price": 599.99,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+      "name": "Microsoft Surface Laptop 5",
+      "category": "Laptops",
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/Microsoft Surface Laptop 5-1.webp",
+        "/Images/Laptops/Microsoft Surface Laptop 5-2.webp"
+      ]
     },
     {
       "id": 40,
-      "name": "TV 11",
-      "category": "Televisions",
-      "price": 1299.99,
-      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+      "name": "Microsoft Surface Laptop Go 3",
+      "category": "Laptops",
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/Microsoft Surface Laptop Go 3-1.webp",
+        "/Images/Laptops/Microsoft Surface Laptop Go 3-2.webp"
+      ]
     },
     {
       "id": 41,
-      "name": "Tablet 11",
-      "category": "Tablets",
-      "price": 899.99,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+      "name": "SAMSUNG Galaxy Book3 Pro",
+      "category": "Laptops",
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/SAMSUNG Galaxy Book3 Pro-1.webp",
+        "/Images/Laptops/SAMSUNG Galaxy Book3 Pro-2.webp"
+      ]
     },
     {
       "id": 42,
-      "name": "Laptop 11",
+      "name": "SAMSUNG Galaxy Book3",
       "category": "Laptops",
-      "price": 1599.99,
-      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+      "price": 999.99,
+      "images": [
+        "/Images/Laptops/SAMSUNG Galaxy Book3-1.webp",
+        "/Images/Laptops/SAMSUNG Galaxy Book3-2.webp"
+      ]
     },
     {
       "id": 43,
-      "name": "Mobile 12",
-      "category": "Smartphones",
-      "price": 2199.99,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+      "name": "LG NANO75",
+      "category": "TVs",
+      "price": 999.99,
+      "images": [
+        "/Images/TVs/LG NANO75-1.webp",
+        "/Images/TVs/LG NANO75-2.webp"
+      ]
     },
     {
       "id": 44,
-      "name": "TV 12",
-      "category": "Televisions",
-      "price": 499.99,
-      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+      "name": "LG UR80",
+      "category": "TVs",
+      "price": 999.99,
+      "images": [
+        "/Images/TVs/LG UR80-1.webp",
+        "/Images/TVs/LG UR80-2.webp"
+      ]
     },
     {
       "id": 45,
-      "name": "Tablet 12",
-      "category": "Tablets",
-      "price": 1399.99,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+      "name": "OnePlus Q2 Pro",
+      "category": "TVs",
+      "price": 999.99,
+      "images": [
+        "/Images/TVs/OnePlus Q2 Pro-1.webp",
+        "/Images/TVs/OnePlus Q2 Pro-2.webp"
+      ]
     },
     {
       "id": 46,
-      "name": "Laptop 12",
-      "category": "Laptops",
+      "name": "OnePlus Y1S Pro",
+      "category": "TVs",
       "price": 999.99,
-      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+      "images": [
+        "/Images/TVs/OnePlus Y1S Pro-1.webp",
+        "/Images/TVs/OnePlus Y1S Pro-2.webp"
+      ]
     },
     {
       "id": 47,
-      "name": "Mobile 13",
-      "category": "Smartphones",
-      "price": 2499.99,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGT744WQ2glxzM8LS3JM-mGNxmDZEdQ2aFQ&usqp=CAU"
+      "name": "SAMSUNG Crystal 4K Neo",
+      "category": "TVs",
+      "price": 999.99,
+      "images": [
+        "/Images/TVs/SAMSUNG Crystal 4K Neo-1.webp",
+        "/Images/TVs/SAMSUNG Crystal 4K Neo-2.webp"
+      ]
     },
     {
       "id": 48,
-      "name": "TV 13",
-      "category": "Televisions",
-      "price": 699.99,
-      "image": "https://www.aysonline.pk/wp-content/uploads/2022/05/KD-50X75-250x250.jpg.webp"
+      "name": "SAMSUNG CUE60",
+      "category": "TVs",
+      "price": 999.99,
+      "images": [
+        "/Images/TVs/SAMSUNG CUE60-1.webp",
+        "/Images/TVs/SAMSUNG CUE60-2.webp"
+      ]
     },
     {
       "id": 49,
-      "name": "Tablet 13",
-      "category": "Tablets",
-      "price": 1599.99,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-p613nzaeinu/gallery/in-galaxy-tab-s6-lite-p610-428695-428695-sm-p613nzaeinu-534744419?$1300_1038_PNG$"
+      "name": "SONY X64L",
+      "category": "TVs",
+      "price": 999.99,
+      "images": [
+        "/Images/TVs/SONY X64L-1.webp",
+        "/Images/TVs/SONY X64L-2.webp"
+      ]
     },
     {
       "id": 50,
-      "name": "Laptop 13",
-      "category": "Laptops",
-      "price": 899.99,
-      "image": "https://5.imimg.com/data5/SELLER/Default/2022/6/PO/FT/AT/8118327/apple-laptop-250x250.jpg"
+      "name": "SONY X75L",
+      "category": "TVs",
+      "price": 999.99,
+      "images": [
+        "/Images/TVs/SONY X75L-1.webp",
+        "/Images/TVs/SONY X75L-2.webp"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Xiaomi 5A",
+      "category": "TVs",
+      "price": 999.99,
+      "images": [
+        "/Images/TVs/Xiaomi 5A-1.webp",
+        "/Images/TVs/Xiaomi 5A-2.webp"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Xiaomi X Pro",
+      "category": "TVs",
+      "price": 999.99,
+      "images": [
+        "/Images/TVs/Xiaomi X Pro-1.webp",
+        "/Images/TVs/Xiaomi X Pro-2.webp"
+      ]
     }
   ]
 }

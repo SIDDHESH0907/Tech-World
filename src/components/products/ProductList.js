@@ -7,6 +7,7 @@ let original_products = [];
 function ProductList() {
   let [products, setProducts] = useState([]);
   let [url, setUrl] = useState("http://localhost:3000/products");
+  // const [url, setUrl] = useState("https://raw.githubusercontent.com/SIDDHESH0907/products/master/products.json/products");
 
   const fetchProducts = async () => {
     let response = await fetch(url);
@@ -60,16 +61,14 @@ function ProductList() {
         <button
           className="select-category-btn"
           onClick={() =>
-            setUrl("http://localhost:3000/products?category=Smartphones")
+            setUrl("http://localhost:3000/products?category=Mobiles")
           }
         >
-          Smartphones
+          Mobiles
         </button>
         <button
           className="select-category-btn"
-          onClick={() =>
-            setUrl("http://localhost:3000/products?category=Televisions")
-          }
+          onClick={() => setUrl("http://localhost:3000/products?category=TVs")}
         >
           Televisions
         </button>
