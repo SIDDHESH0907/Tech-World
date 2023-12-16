@@ -6,7 +6,8 @@ function ProductCard(props) {
     <>
       <div className="product-card">
         <div className="card-image">
-          <img src={props.images[0]} alt={props.name} />
+          <img className="no-hover-image" src={props.images[0]} alt={props.name} />
+          <img className="hover-image" src={props.images[1]} alt={props.name} />
         </div>
         <div className="card-details">
           <div className="product-name">{props.name}</div>

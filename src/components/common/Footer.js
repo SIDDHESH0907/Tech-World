@@ -1,9 +1,15 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
+
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   const iconSize = 25;
+  const iconColor = "#172330";
+  const githubLink = "https://github.com/SIDDHESH0907";
+  const linkedinLink = "https://www.linkedin.com/in/siddhesh-gaonkar";
+  const instagramLink = "https://www.instagram.com/siddhesh_gaonkar_0907";
 
   return (
     <>
@@ -17,13 +23,19 @@ function Footer() {
         </div>
         <div className="footer-mid">
           <div className="footer-icons">
-            <FaInstagram size={iconSize} />
+            <Link to={instagramLink} target="_blank">
+              <FaInstagram size={iconSize} style={{ color: iconColor }} />
+            </Link>
           </div>
           <div className="footer-icons">
-            <FaGithub size={iconSize} />
+            <Link to={githubLink} target="_blank">
+              <FaGithub size={iconSize} style={{ color: iconColor }} />
+            </Link>
           </div>
           <div className="footer-icons">
-            <FaLinkedin size={iconSize} />
+            <Link to={linkedinLink} target="_blank">
+              <FaLinkedin size={iconSize} style={{ color: iconColor }} />
+            </Link>
           </div>
         </div>
         <div className="footer-right">
