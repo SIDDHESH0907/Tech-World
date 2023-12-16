@@ -7,7 +7,6 @@ let original_products = [];
 function ProductList() {
   let [products, setProducts] = useState([]);
   let [url, setUrl] = useState("http://localhost:3000/products");
-  // const [url, setUrl] = useState("https://raw.githubusercontent.com/SIDDHESH0907/products/master/products.json/products");
 
   const fetchProducts = async () => {
     let response = await fetch(url);

@@ -63,13 +63,11 @@ function Shop() {
             setUrl("http://localhost:3000/products?category=Mobiles")
           }
         >
-          Smartphones
+          Mobiles
         </button>
         <button
           className="select-category-btn"
-          onClick={() =>
-            setUrl("http://localhost:3000/products?category=TVs")
-          }
+          onClick={() => setUrl("http://localhost:3000/products?category=TVs")}
         >
           Televisions
         </button>

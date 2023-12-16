@@ -6,7 +6,7 @@ function ProductCard(props) {
     <>
       <div className="product-card">
         <div className="card-image">
-          <img src={props.image} alt={props.name} />
+          <img src={props.images[0]} alt={props.name} />
         </div>
         <div className="card-details">
           <div className="product-name">{props.name}</div>
